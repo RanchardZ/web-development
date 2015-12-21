@@ -1,0 +1,30 @@
+<form method="post">
+	<h1>Signup</h1>
+	<br>
+
+	<label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Username
+		<input type='text' name='Username' value=%(username)s>
+	</label>
+	<div style="color: red">%(username_error)s</div>
+	<br>
+	<label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password&nbsp;
+		<input type='text' name='Password' value=%(password)s>
+	</label>
+	<div style="color: red">%(password_error)s</div>
+	<br>
+	<label>
+		Verify Password
+		<input type='text' name='vpassword' value=%(vpassword)s>
+	</label>
+	<br>
+	<label>
+		Email (optional)
+		<input type='text' name='email' value=%(email)s>
+	</label>
+	<div style="color: red">%(email_error)s</div>
+	<br>
+	<input type='submit'>
+
+</form>
